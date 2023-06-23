@@ -1,4 +1,5 @@
 import 'package:covid_updete/Covid_19/View/Cases_screen.dart';
+import 'package:covid_updete/Covid_19/View/Country_screen.dart';
 import 'package:covid_updete/Covid_19/View/Home_screen.dart';
 import 'package:covid_updete/Covid_19/View/Info_screen.dart';
 import 'package:covid_updete/Covid_19/View/State_list.dart';
@@ -10,7 +11,7 @@ class BottomProvider extends ChangeNotifier
 
   List screenList=[
     Home_screen(),
-    Caces_screen(),
+    Country_screen(),
     State_list(),
     Info_screen(),
   ];
